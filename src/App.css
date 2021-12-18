@@ -1,0 +1,123 @@
+body {
+  background-color: hsl(230, 20%, 11%);
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 64px;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  color: white;
+}
+
+.bio {
+  text-align: center;
+  color: hsl(218, 15%, 82%);
+  margin-top: 16px;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.twitterContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.ConnectWallet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+label {
+  color: white;
+}
+
+.textWrapper label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+textarea {
+  width: 100%;
+  padding: 5px;
+  height: 80px;
+  border-radius: 5px;
+  border: none;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.GreetMe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wavelist {
+  background-color: hsl(231, 20%, 18%);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 20px 25px;
+  margin-top: 30px;
+  color: white;
+}
+
+.FromClass {
+  color: hsl(178, 50%, 39%);
+  margin-bottom: 10px;
+}
+
+.TimeClass {
+  color: hsl(178, 50%, 39%);
+  margin: 10px 0;
+}
+
+.greetButton {
+  cursor: pointer;
+  margin-top: 16px;
+  margin-bottom: 40px;
+  padding: 8px 16px;
+  border: 0;
+  border-radius: 5px;
+  text-decoration: none;
+  width: 150px;
+  height: 50px;
+  background-color: rgb(49, 150, 147);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.greetButton2 {
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 8px 16px;
+  border: 0;
+  border-radius: 5px;
+  text-decoration: none;
+  width: 150px;
+  height: 50px;
+  background-color: hsl(13, 72%, 65%);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
